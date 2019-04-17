@@ -1,0 +1,19 @@
+.loader{
+    height: 200px;
+    width:200px;
+    border: 20px solid red ;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-radius: 50%;
+    animation: loader 2s infinite linear;
+    box-sizing: border-box;
+}
+
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
